@@ -1,0 +1,14 @@
+#Sam Krimmel
+#1/16/18
+#solvingtriangle.py - solves a triangle with three given side lengths
+
+sidea = float(input('Side a = '))
+sideb = float(input('Side b = '))
+sidec = float(input('Side c = '))
+
+import math cos
+import math asin
+import math acos
+import math degrees
+
+print('Angle A is', (
