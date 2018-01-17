@@ -12,12 +12,12 @@ aNumber = ((a**2)-(b**2)-(c**2))/(-2*b*c)
 bNumber = ((b**2)-(a**2)-(c**2))/(-2*a*c)
 cNumber = ((c**2)-(a**2)-(b**2))/(-2*a*b)
 
-print('Angle A is',((360*math.acos(aNumber))/(2*math.pi)))
+print('Angle A is',((360*math.acos(aNumber))/(2*math.pi)), 'degrees.')
 
-print('Angle B is',((360*math.acos(bNumber))/(2*math.pi)))
+print('Angle B is',((360*math.acos(bNumber))/(2*math.pi)), 'degrees.')
 
-print('Angle C is',((360*math.acos(cNumber))/(2*math.pi)))
+print('Angle C is',((360*math.acos(cNumber))/(2*math.pi)), 'degrees.')
 
 s = ((a+b+c)/2)
 
-print('The area of the triangle is',((s*(s-a)*(s-b)*(s-c))**0.5))
+print('The area of the triangle is',((s*(s-a)*(s-b)*(s-c))**0.5), 'square units.')
