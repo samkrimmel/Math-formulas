@@ -2,11 +2,22 @@
 #1/16/18
 #solvingtriangle.py - solves a triangle with three given side lengths
 
+import math
+
 a = float(input('side a = '))
 b = float(input('side b = '))
 c = float(input('side c = '))
 
-print('Angle A is',((a**2)-(b**2)-(c**2))/(-2*b*c))
-print('Angle B is',((b**2)-(a**2)-(c**2))/(-2*a*c))
-print('Angle C is',((c**2)-(a**2)-(b**2))/(-2*a*b))
-print('The area of the triangle is',(
+aNumber = ((a**2)-(b**2)-(c**2))/(-2*b*c)
+bNumber = ((b**2)-(a**2)-(c**2))/(-2*a*c)
+cNumber = ((c**2)-(a**2)-(b**2))/(-2*a*b)
+
+print('Angle A is',((360*math.acos(aNumber))/(2*math.pi)))
+
+print('Angle B is',((360*math.acos(bNumber))/(2*math.pi)))
+
+print('Angle C is',((360*math.acos(cNumber))/(2*math.pi)))
+
+s = ((a+b+c)/2)
+
+print('The area of the triangle is',((s*(s-a)*(s-b)*(s-c))**0.5))
