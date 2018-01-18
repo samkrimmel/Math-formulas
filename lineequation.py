@@ -12,7 +12,7 @@ print('y=mx+b')
 if (x2-x1) == 0:
     print('Vertical line, not a function')
 elif (y2-y1) == 0:
-    print('Horizontal line at y = ',y1)
+    print('Horizontal line at y =',y1)
 else :
     m = ((y2-y1)/(x2-x1))
     print('m = ',m,'and b = ',(y1-(x1*m)))
