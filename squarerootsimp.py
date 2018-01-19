@@ -5,10 +5,10 @@
 from math import sqrt
 
 a = int(input('Simplify the square root of: '))
-s = sqrt(1)
-for x in range(a,1,-1):
+y = 1
+for x in range(1,a):
     if a%x == 0 and sqrt(x).is_integer():
-        s = x
-print(sqrt(s),'square root',a/s)
+        y = x
+print(sqrt(y),'square root',a/y)
 
 
