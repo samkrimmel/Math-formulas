@@ -9,6 +9,10 @@ y = 1
 for x in range(1,a):
     if a%x == 0 and sqrt(x).is_integer():
         y = x
-print(sqrt(y),'square root',a/y)
+if sqrt(a/y).is_integer():
+    print(sqrt(a/y))
+else:
+    print(sqrt(y),'square root',a/y)
+
 
 
