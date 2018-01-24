@@ -6,7 +6,6 @@ from random import randint
 
 ques = 0
 
-
 while ques < 5:
     num1 = randint(1,10)
     num2 = randint(1,10)
