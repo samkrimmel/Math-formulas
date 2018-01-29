@@ -12,7 +12,7 @@ D = float(input('D = '))
 E = float(input('E = '))
 F = float(input('F = '))
 
-x = (C-(B*(((F*A)-(C**2))/((-B*C)+(A*D)))))/A
-y = ((F*A)-(C**2))/((-B*C)+(A*D))
+x = ((C-(B*(((A*F)-(D*C))/((-D*B)+(A*E)))))/A)
+y = (((A*F)-(D*C))/((-D*B)+(A*E)))
 
 print('(x,y) =',(x,y))
